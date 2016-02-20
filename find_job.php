@@ -10,6 +10,7 @@ include_once('database.php');
 
 $DB = new Database();
 $adverts = $DB->get_content();
+$stats = $DB->get_stat();
 $regex = '~(http(s?)://)([^/]*)/?~';
 ?>
 <div class="content-section-a">
@@ -23,6 +24,37 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                             <span class="glyphicon glyphicon-filter"></span> Filtruj
                         </button>
                     </div>
+                </div>
+                <div>
+                    <h4> Obecnie na stronie akcji znajduje się:
+                        <ul>
+                            <li>
+                                <?php
+                                    $linki = 'link';
+                                    $os = $stats[0];
+                                    if ($os == 0 || $os > 4){
+                                        $linki = $linki.'ów';
+                                    } elseif ($os > 0 && $os < 5) {
+                                        $linki = $linki.'i';
+                                    }
+                                    echo ' '.$os.' '.$linki.' ';
+                                ?>
+                                dot. ofert pracy z zakresu ochrony środowiska
+                            </li>
+                            <li>
+                                <?php
+                                    $linki = 'link';
+                                    $os = $stats[1];
+                                    if ($soo == 0 || $soo > 4){
+                                        $linki = $linki.'ów';
+                                    } elseif ($soo > 0 && $soo < 5) {
+                                        $linki = $linki.'i';
+                                    }
+                                    echo ' '.$soo.' '.$linki.' ';
+                                ?> dot. ofert pracy związanych z innymi aspektami CSR/zrównoważonego rozwoju
+                            </li>
+                        </ul>
+                    </h4>
                 </div>
                 <table class="table display dataTable dtr-inline collapsed bordered table-striped">
                     <thead>
