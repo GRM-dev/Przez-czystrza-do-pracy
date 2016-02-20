@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="?page=home">O co chodzi</a>
+                    <a href="?page=info">O co chodzi</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -81,6 +81,10 @@
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
                         <a href="?page=adminChangeUserPwd">Admin Zmiana hasła</a>
+                    </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="?page=registerAdvertisment">Rejestracja zgłoszenia</a>
                     </li>
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; Your Company TODO</p>

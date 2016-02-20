@@ -44,5 +44,9 @@ switch($page){
         include 'adminChangeUserPwd.php';
         echo '</div>';
         break;
-
+    case 'registerAdvertisment';
+        echo '<div id="content">';
+        include 'registerAdvertisment.php';
+        echo '</div>';
+        break;
 }
