@@ -48,6 +48,46 @@ class Database
 
     public function get_url(){
         $mysqli = $this->get_connection();
+        $sql = "SELECT * FROM urls";
+        if (!$result = $mysqli->query($sql)) {
+            echo "Sorry, the website is experiencing problems.";
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo "Query: " . $sql . "\n";
+            echo "Errno: " . $mysqli->errno . "\n";
+            echo "Error: " . $mysqli->error . "\n";
+            exit;
+        }
+        return mysqli_fetch_all($result);
+
+    }
+
+    public function get_category(){
+        $mysqli = $this->get_connection();
+        $sql = "SELECT * FROM categories";
+        if (!$result = $mysqli->query($sql)) {
+            echo "Sorry, the website is experiencing problems.";
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo "Query: " . $sql . "\n";
+            echo "Errno: " . $mysqli->errno . "\n";
+            echo "Error: " . $mysqli->error . "\n";
+            exit;
+        }
+        return mysqli_fetch_all($result);
+
+    }
+
+    public function get_province(){
+        $mysqli = $this->get_connection();
+        $sql = "SELECT * FROM provinces";
+        if (!$result = $mysqli->query($sql)) {
+            echo "Sorry, the website is experiencing problems.";
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo "Query: " . $sql . "\n";
+            echo "Errno: " . $mysqli->errno . "\n";
+            echo "Error: " . $mysqli->error . "\n";
+            exit;
+        }
+        return mysqli_fetch_all($result);
 
     }
 }
