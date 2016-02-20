@@ -15,6 +15,16 @@ function register()
         echo ("Nie podałeś hasła!");
         return false;
     }
+    if(empty($_POST['password_confirmation']))
+    {
+        echo ("Nie podałeś hasła po raz drugi!");
+        return false;
+    }
+    if($_POST['password'] != $_POST['password_confirmation'])
+    {
+        echo ("Hasła nie są identyczne!");
+        return false;
+    }
     $username = trim($_POST['email']);
     $password = trim($_POST['password']);
     $pswds = sha1(md5($password));
@@ -26,6 +36,5 @@ function register()
     echo "Złe dane zostały podane!";
     return false;
 }
-
 
 register();
