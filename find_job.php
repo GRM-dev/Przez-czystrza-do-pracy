@@ -9,7 +9,7 @@
 include_once('database.php');
 
 $DB = new Database();
-$adverts = $DB->get_adverts();
+$adverts = $DB->get_content();
 $regex = '~(http(s?)://)([^/]*)/?~';
 ?>
 <div class="content-section-a">
