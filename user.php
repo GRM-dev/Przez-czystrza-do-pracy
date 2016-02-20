@@ -21,6 +21,6 @@ class User
 
     public static function register($mail, $pswd){
         $DBi = new Database();
-        $DBi->add_user($mail,$pswd);
+        return $DBi->add_user($mail,$pswd);
     }
 }
