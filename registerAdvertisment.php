@@ -7,7 +7,7 @@
  */?>
 <div class="container" style="padding:10%">
     <form class="form-horizontal" role="form">
-        <h2>Rejestracja zgłoszenia</h2>
+        <h2>Dodaj informacje o ogłoszeniu</h2>
         <div class="form-group">
             <label for="website" class="col-sm-3 control-label">Adres strony</label>
             <div class="col-sm-9">
@@ -66,17 +66,27 @@
         </div> <!-- /.form-group -->
 
         <div class="form-group">
-            <label for="city" class="col-sm-3 control-label">Oferta wygasa dnia</label>
+            <label for="city" class="col-sm-3 control-label">Ogłoszenie z dnia</label>
             <div class="col-sm-9">
-                <input type="text" id="text" placeholder="" class="form-control">
+                <input type="date" name="bday" max="1979-12-31"><br>
             </div>
         </div> <!-- /.form-group -->
+        <form class="container">
+            <label for="city" class="col-sm-3 control-label">Ogłoszenie wygasa dnia </label>
+            <div class="col-sm-9">
+                <input type="date" name="bday" max="1979-12-31"> &nbsp;&nbsp;&nbsp; / lub za ile dni &nbsp;&nbsp;&nbsp;
+                <input type="number" name="bday" max="1979-12-31">
+            </div><br>
+        </form><br><br>
+
         <div class="form-group">
             <div class="col-sm-9 col-sm-offset-3">
-                <button type="submit" class="btn btn-primary btn-block">Rejestracja</button>
+                <button type="submit" class="btn btn-primary btn-block">Dodaj</button>
             </div>
         </div>
 
 
     </form> <!-- /form -->
 </div> <!-- ./container -->
+
+
