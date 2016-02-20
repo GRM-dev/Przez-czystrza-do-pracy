@@ -79,8 +79,9 @@ class Database
             echo "Query: " . $sql . "\n";
             echo "Errno: " . $mysqli->errno . "\n";
             echo "Error: " . $mysqli->error . "\n";
-            exit;
+            return false;
         }
+        return true;
     }
 
     public function add_category($category)

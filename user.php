@@ -1,11 +1,15 @@
 <?php
 include_once('Database.php');
+
 class User
 {
 
     public static function is_logged_in()
     {
-        return $_SESSION['loggedin'];
+        if (!empty($_SESSION['loggedin'])) {
+            return $_SESSION['loggedin'];
+        }
+        return false;
     }
 
     public static function login($mail, $pswd)
@@ -13,14 +17,15 @@ class User
         $DBi = new Database();
         if ($DBi->valid_user($mail, $pswd)) {
             $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $mail;
+            $_SESSION['mail'] = $mail;
             return true;
         }
         return false;
     }
 
-    public static function register($mail, $pswd){
+    public static function register($mail, $pswd)
+    {
         $DBi = new Database();
-        return $DBi->add_user($mail,$pswd);
+        return $DBi->add_user($mail, $pswd);
     }
 }

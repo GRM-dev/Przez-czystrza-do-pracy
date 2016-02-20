@@ -4,6 +4,7 @@ include_once('User.php');
 
 function register()
 {
+    sleep(3);
     if (empty($_POST['email']))
     {
         echo ("Nie podałeś maila!");
@@ -18,6 +19,7 @@ function register()
     if(empty($_POST['password_confirmation']))
     {
         echo ("Nie podałeś hasła po raz drugi!");
+
         return false;
     }
     if($_POST['password'] != $_POST['password_confirmation'])
@@ -29,11 +31,12 @@ function register()
     $password = trim($_POST['password']);
     $pswds = sha1(md5($password));
     if(User::register($username, $pswds)) {
+        echo 'Registered!';
         header("Status: 301 Moved Permanently");
-        header("Location:?page=home");
+        header("Location:index.php?page=home");
         return true;
     }
-    echo "Złe dane zostały podane!";
+    echo "Podany email już istnieje lub wystąpił problem z serwerem!";
     return false;
 }
 
