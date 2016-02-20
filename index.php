@@ -86,7 +86,6 @@ include 'main.php';
 
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
 <script src="js/main.js"></script>
-<script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <!--[if lt IE 9]>

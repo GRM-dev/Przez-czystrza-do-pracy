@@ -44,7 +44,8 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                         $site = $matches[0];
                         echo "<tr><td>".$link.$site.$end."</td><td>".$link.$adv[2].$end."</td><td>".$link.$adv[3].$end."</td><td>".$link.$adv[4].$end."</td><td>";
                         echo $link.$adv[5].$end."</td><td>".$link.$adv[6].$end."</td><td>".$link.$adv[7].$end."</td><td>";
-                        echo $link.$adv[8].$end."</td><td>".$link.$adv[9].$end."</td></tr>";
+                        echo $link.$adv[8].$end."</td><td>";
+                        echo "</td></tr>";
                     }; ?>
                     </tbody>
                 </table>
@@ -53,6 +54,7 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                         document.location = $(this).data('href');
                     });
                 </script>
+                <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
                 <script>
                     $(document).ready(function(){
                         $('#jobs_table').DataTable();
