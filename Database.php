@@ -12,6 +12,7 @@ class Database
             echo "Error: " . $mysqli->connect_error . "\n";
             exit;
         }
+        $mysqli->set_charset("utf8");
         return $mysqli;
     }
 
@@ -27,7 +28,7 @@ class Database
             echo "Error: " . $mysqli->error . "\n";
             exit;
         }
-        return mysqli_fetch_array($result);
+        return mysqli_fetch_all($result);
     }
 
     public function add_advert(){
