@@ -24,4 +24,9 @@ switch($page){
         include 'find_job.php';
         echo '</div>';
         break;
+    case 'info':
+        echo '<div id="content">';
+        include 'info.html';
+        echo '</div>';
+        break;
 }
