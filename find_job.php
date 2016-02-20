@@ -40,12 +40,12 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                     <tbody>
                     <?php
                     foreach ($adverts as $advK => $adv) {
-                        $link = '<a href="' . $adv[1] . '">';
+                        $link = '<a href="' . $adv[2] . '">';
                         $end = '</a>';
-                        preg_match($regex, $adv[1], $matches);
+                        preg_match($regex, $adv[2], $matches);
                         $site = $matches[0];
                         echo "<tr><td>" . $link . $site . $end . "</td>";
-                        for ($i = 2; $i < 9; $i++) {
+                        for ($i = 3; $i < 10; $i++) {
                             echo "<td>" . $link . $adv[$i] . $end . "</td>";
                         }
                         echo "</tr>";
