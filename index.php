@@ -32,7 +32,17 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#about">O co chodzi</a>
+                    <a href="?page=home">O co chodzi</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="?page=find_job">Człowiek szuka pracy</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="?page=find_job">Praca szuka człowieka</a>
                 </li>
             </ul>
         </div>
