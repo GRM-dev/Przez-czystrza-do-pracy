@@ -179,7 +179,7 @@ class Database
     public function get_user($mail)
     {
         $mysqli = $this->get_connection();
-        $sql = "SELECT * FROM users WHERE email LIKE '".$mail."'";
+        $sql = "SELECT * FROM users WHERE email LIKE '" . $mail . "'";
         if (!$result = $mysqli->query($sql)) {
             echo "Sorry, the website is experiencing problems.";
             echo "Error: Our query failed to execute and here is why: \n";

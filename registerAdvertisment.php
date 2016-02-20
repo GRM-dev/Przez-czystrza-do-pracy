@@ -4,7 +4,7 @@
  * User: artur
  * Date: 2016-02-20
  * Time: 10:35
- */?>
+ */ ?>
 <div class="container" style="padding:10%">
     <form class="form-horizontal" role="form">
         <h2>Dodaj informacje o ogłoszeniu</h2>

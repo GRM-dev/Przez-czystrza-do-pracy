@@ -29,8 +29,9 @@ class User
         return $DBi->add_user($mail, $pswd);
     }
 
-    public static function is_admin(){
-        if(!empty($_SESSION['mail'])){
+    public static function is_admin()
+    {
+        if (!empty($_SESSION['mail'])) {
             $DBi = new Database();
             $DBi->get_user($_SESSION['mail']);
         }

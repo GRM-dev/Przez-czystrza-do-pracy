@@ -15,7 +15,8 @@
                             <a href="" class="btn btn-primary  btn-block"><i class=></i> <span class="network-name" ;
                                                                                                style="font-size:smaller;">
                                     <h5>Praca szuka człowieka</h5><br>Zobacz listę ofert pracy</span></a>
-                            <a href="?page=info" class="btn btn-primary  btn-block"><i class=></i> <span class="network-name"; style="font-size:smaller;">
+                            <a href="?page=info" class="btn btn-primary  btn-block"><i class=></i> <span
+                                    class="network-name" ; style="font-size:smaller;">
                                     <h5>Jak to działa</h5><br>O akcji Przez "Czystszą" do pracy</span></a>
                         </li>
                     </ul>

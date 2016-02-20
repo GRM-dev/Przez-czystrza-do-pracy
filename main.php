@@ -1,11 +1,11 @@
 <?php
-if(isset($_GET['page'])){
-    $page=$_GET['page'];
-}else{
-    $page='home';
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+} else {
+    $page = 'home';
 }
 
-switch($page){
+switch ($page) {
     case 'home':
         include 'home.php';
         break;

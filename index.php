@@ -8,13 +8,17 @@
     <meta name="author" content="Silesia Hackaton Team">
     <title>Przez Czystszą do Pracy</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          crossorigin="anonymous">
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+    <link href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet"
+          crossorigin="anonymous">
 </head>
 <body>
 
@@ -22,7 +26,8 @@
 <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
     <div class="container topnav">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -50,14 +55,12 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-
 </nav>
 
-<?php session_start(); include 'main.php'; ?>
-
-<!-- Footer -->
+<?php session_start();
+require 'main.php';
+require('user.php'); ?>
 <footer>
-
     </div>
     <div class="container">
         <div class="row">
@@ -75,27 +78,23 @@
                         <a href="#contact">Kontakt</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="?page=userChangePwd">Zmiana hasła</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <?php
-                    include_once('user.php');
-                    if(User::is_admin()) {
-                        echo '<li><a href="?page=adminChangeUserPwd">Admin Zmiana hasła</a></li>';
+                    <?php if (User::is_logged_in()) {
+                        echo '<li><a href="?page=userChangePwd">Zmiana hasła</a></li>';
+                        echo '<li class="footer-menu-divider">&sdot;</li>';
                     }
                     ?>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="?page=registerAdvertisment">Rejestracja zgłoszenia</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="?page=deleteAdvertisment">Usuwanie zgłoszeń</a>
-                    </li>
-
+                    <?php if (User::is_admin()) {
+                        echo '<li><a href="?page=adminChangeUserPwd">Admin Zmiana hasła</a></li>';
+                        echo '<li class="footer-menu-divider">&sdot;</li>';
+                    }
+                    ?>
+                    <?php if (User::is_logged_in()) {
+                        echo '<li><a href="?page=registerAdvertisment">Rejestracja zgłoszenia</a></li>';
+                        echo '<li class="footer-menu-divider">&sdot;</li>';
+                        echo '<li><a href="?page=deleteAdvertisment">Usuwanie zgłoszeń</a></li>';
+                    } ?>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; Your Company TODO</p>
+                <p class="copyright text-muted small">Copyright &copy; Your Company</p>
             </div>
         </div>
     </div>

@@ -30,27 +30,27 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                         <ul>
                             <li>
                                 <?php
-                                    $linki = 'link';
-                                    $os = $stats[0][0];
-                                    if ($os == 0 || $os > 4){
-                                        $linki = $linki.'ów';
-                                    } elseif ($os >1 && $os < 5) {
-                                        $linki = $linki.'i';
-                                    }
-                                    echo ' '.$os.' '.$linki.' ';
+                                $linki = 'link';
+                                $os = $stats[0][0];
+                                if ($os == 0 || $os > 4) {
+                                    $linki = $linki . 'ów';
+                                } elseif ($os > 1 && $os < 5) {
+                                    $linki = $linki . 'i';
+                                }
+                                echo ' ' . $os . ' ' . $linki . ' ';
                                 ?>
                                 dot. ofert pracy z zakresu ochrony środowiska
                             </li>
                             <li>
                                 <?php
-                                    $linki = 'link';
-                                    $soo = $stats[0][1];
-                                    if ($soo == 0 || $soo > 4){
-                                        $linki = $linki.'ów';
-                                    } elseif ($soo > 1 && $soo < 5) {
-                                        $linki = $linki.'i';
-                                    }
-                                    echo ' '.$soo.' '.$linki.' ';
+                                $linki = 'link';
+                                $soo = $stats[0][1];
+                                if ($soo == 0 || $soo > 4) {
+                                    $linki = $linki . 'ów';
+                                } elseif ($soo > 1 && $soo < 5) {
+                                    $linki = $linki . 'i';
+                                }
+                                echo ' ' . $soo . ' ' . $linki . ' ';
                                 ?> dot. ofert pracy związanych z innymi aspektami CSR/zrównoważonego rozwoju
                             </li>
                         </ul>

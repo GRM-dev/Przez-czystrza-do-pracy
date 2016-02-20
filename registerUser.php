@@ -8,24 +8,31 @@
                 <div class="panel-body">
                     <form id="register" method="post" accept-charset='UTF-8' action="registration.php">
                         <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email">
+                            <input type="email" name="email" id="email" class="form-control input-sm"
+                                   placeholder="Email">
                         </div>
                         <div class="row">
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="password" name="password" id="password" class="form-control input-sm" placeholder="Hasło" required>
+                                    <input type="password" name="password" id="password" class="form-control input-sm"
+                                           placeholder="Hasło" required>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Potwierdź hasło" required>
+                                    <input type="password" name="password_confirmation" id="password_confirmation"
+                                           class="form-control input-sm" placeholder="Potwierdź hasło" required>
                                 </div>
                             </div>
                         </div>
                         <div class="radio">
                             <label><input type="radio" name="optradio">admin</label>
-                            <label><input type="radio" name="optradio" checked="" >ochotnik</label>
-                        <input type="submit" value="Zarejestruj" class="btn btn-info btn-block">
+                            <label><input type="radio" name="optradio2" checked>ochotnik</label>
+                            <?php
+                            include_once('user.php');
+                            if (User::is_admin()) {
+                                echo '<input type="submit" value="Zarejestruj" class="btn btn-info btn-block">';
+                            } ?>
                     </form>
                 </div>
             </div>
