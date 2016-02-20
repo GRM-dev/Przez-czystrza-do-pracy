@@ -90,4 +90,19 @@ class Database
         return mysqli_fetch_all($result);
 
     }
+
+    public function get_mails(){
+        $mysqli = $this->get_connection();
+        $sql = "SELECT * FROM mails";
+        if (!$result = $mysqli->query($sql)) {
+            echo "Sorry, the website is experiencing problems.";
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo "Query: " . $sql . "\n";
+            echo "Errno: " . $mysqli->errno . "\n";
+            echo "Error: " . $mysqli->error . "\n";
+            exit;
+        }
+        return mysqli_fetch_all($result);
+
+    }
 }
