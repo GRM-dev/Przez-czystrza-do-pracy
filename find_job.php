@@ -6,9 +6,14 @@
  * Time: 2:01 AM
  */
 
+include_once('database.php');
+
+$DB = new Database();
+$jobs = $DB->get_jobs();
+
 ?>
 <div class="content-section-a">
-
+    <?php var_dump($jobs); ?>
     <table class="table">
         <thead>
         <tr>
