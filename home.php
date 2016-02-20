@@ -32,8 +32,8 @@
                             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                             <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">
                         </div>
-
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <a href="?page=info" " class="btn btn-primary" role="button">Logowanie</a>
+                        <a href="?page=registerUser"" class="btn btn-primary" role="button">Rejestracja</a>
                     </form>
 
                 </div>

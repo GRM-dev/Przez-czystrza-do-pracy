@@ -29,4 +29,20 @@ switch($page){
         include 'info.html';
         echo '</div>';
         break;
+    case 'registerUser';
+        echo '<div id="content">';
+        include 'registerUser.php';
+        echo '</div>';
+        break;
+    case 'userChangePwd';
+        echo '<div id="content">';
+        include 'userChangePwd.php';
+        echo '</div>';
+        break;
+    case 'adminChangeUserPwd';
+        echo '<div id="content">';
+        include 'adminChangeUserPwd.php';
+        echo '</div>';
+        break;
+
 }
