@@ -11,9 +11,16 @@ class User
     public static function login($mail, $pswd)
     {
         $DBi = new Database();
-        if ($DBi->cred_valid($mail, $pswd)) {
+        if ($DBi->valid_user($mail, $pswd)) {
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $mail;
+            return true;
         }
+        return false;
+    }
+
+    public static function register($mail, $pswd){
+        $DBi = new Database();
+        $DBi->add_user($mail,$pswd);
     }
 }

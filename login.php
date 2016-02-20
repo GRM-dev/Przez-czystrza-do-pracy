@@ -20,10 +20,13 @@ function login()
     $password = trim($_POST['password']);
     $pswds = sha1(md5($password));
     if(User::login($username, $pswds)) {
+        echo "____" . $username . $pswds;
+        sleep(2);
         header("Status: 301 Moved Permanently");
         header("Location:?page=home");
         return true;
     }
+    echo 'zle haslo!';
     return false;
 }
 
