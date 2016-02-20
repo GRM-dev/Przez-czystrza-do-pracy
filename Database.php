@@ -31,7 +31,7 @@ class Database
         return mysqli_fetch_all($result);
     }
 
-    public function add_advert(){
+    public function add_advert($page){
         $mysqli = $this->get_connection();
 
     }

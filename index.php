@@ -53,10 +53,7 @@
 
 </nav>
 
-<?php
-session_start();
-include 'main.php';
-?>
+<?php include 'main.php'; ?>
 
 <!-- Footer -->
 <footer>

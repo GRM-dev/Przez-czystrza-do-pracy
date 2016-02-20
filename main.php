@@ -11,7 +11,7 @@ switch($page){
         break;
     case 'user':
         echo '<div id="content">';
-        include 'user.php';
+        include 'User.php';
         echo '</div>';
         break;
     case 'new_adv':

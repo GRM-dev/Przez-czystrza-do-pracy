@@ -1,7 +1,19 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Lukasz
- * Date: 2/20/2016
- * Time: 2:02 AM
- */
+include_once('Database.php');
+class User
+{
+
+    public static function is_logged_in()
+    {
+        return $_SESSION['loggedin'];
+    }
+
+    public static function login($mail, $pswd)
+    {
+        $DBi = new Database();
+        if ($DBi->cred_valid($mail, $pswd)) {
+            $_SESSION['loggedin'] = true;
+            $_SESSION['username'] = $mail;
+        }
+    }
+}

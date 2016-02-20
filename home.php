@@ -22,20 +22,15 @@
         <nav class="">
             <div class="container-fluid">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <form id="signin" class="navbar-form navbar-right" role="form">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input id="email" type="email" class="form-control" name="email" value="" placeholder="Email Address">
-                        </div>
+                    <form id="login" class="navbar-form navbar-right" method="post" accept-charset='UTF-8' action="login.php">
 
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                            <input id="password" type="password" class="form-control" name="password" value="" placeholder="Password">
-                        </div>
-                        <a href="?page=info" " class="btn btn-primary" role="button">Logowanie</a>
-                        <a href="?page=registerUser"" class="btn btn-primary" role="button">Rejestracja</a>
+                        <fieldset id="inputs">
+                            <input id="email" type="text" name="email" placeholder="Email" data-rule-email="true" autofocus required>
+                            <input id="password" name="password" type="password" placeholder="Password" required>
+                        </fieldset>
+                        <input class="btn btn-primary" type="submit" value="Logowanie"/>
+                        <?php session_start(); if(isset($_SESSION['admin'])){echo '<a href="?page=registerUser"" class="btn btn-primary" role="button">Rejestracja</a>'; }?>
                     </form>
-
                 </div>
             </div>
         </nav>

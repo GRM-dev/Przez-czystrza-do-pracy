@@ -33,8 +33,8 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                         <th><input type="text" class="form-control" placeholder="Miasto" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Firma" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Stanowisko" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Data ogłoszenia" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Data wygaśnięcia" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Ogłoszono" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Wygasa" disabled></th>
                     </tr>
                     </thead>
                     <tbody>
