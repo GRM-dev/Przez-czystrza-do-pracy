@@ -1,83 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efc5f73a-4a01-4506-b328-f3f5ba3e1a60" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add_adv.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/find_job.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Przez-czystsza-do-pracy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/vendor/jquery-1.12.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crossdomain.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/TOC.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/css.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/extend.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/faq.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/html.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/misc.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/doc/usage.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plugins.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tile-wide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file_content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/file_existence.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="efc5f73a-4a01-4506-b328-f3f5ba3e1a60" name="Default" comment="added php">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Database.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_adv.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/add_adv.php" afterPath="$PROJECT_DIR$/new_adv.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info.html" afterPath="$PROJECT_DIR$/info.html" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.705882">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.6764705">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -119,8 +49,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_adv.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_adv.php">
+      <file leaf-file-name="new_adv.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_adv.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.147059">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_adv.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_adv.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -129,22 +69,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user.php">
+      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-24.264706">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding>
+                <marker date="1455930819535" expanded="true" signature="6693:6719" placeholder="INSERT INTO `${{$table}}`... " />
+                <marker date="1455930819535" expanded="true" signature="7141:7169" placeholder="DELETE FROM " />
+                <marker date="1455930819535" expanded="true" signature="8045:8080" placeholder="SELECT ${{$c... " />
+                <marker date="1455930819535" expanded="true" signature="9497:9518" placeholder="UPDATE `${{$... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.088235">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.9411764">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
+            <state vertical-scroll-proportion="0.21498771">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1455932576611" expanded="true" signature="612:765" placeholder="..." />
+                <marker date="1455932576611" expanded="true" signature="705:733" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +123,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Database.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/new_adv.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/info.html" />
       </list>
@@ -272,6 +234,13 @@
       <option name="number" value="Default" />
       <updated>1455929801516</updated>
     </task>
+    <task id="LOCAL-00001" summary="added php">
+      <created>1455930213408</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455930213408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -281,44 +250,79 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added php" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/info.html">
+    <entry file="file://$PROJECT_DIR$/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.4117646">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/new_adv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.705882">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_adv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.088235">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.264706">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1455930819535" expanded="true" signature="6693:6719" placeholder="INSERT INTO `${{$table}}`... " />
+            <marker date="1455930819535" expanded="true" signature="7141:7169" placeholder="DELETE FROM " />
+            <marker date="1455930819535" expanded="true" signature="8045:8080" placeholder="SELECT ${{$c... " />
+            <marker date="1455930819535" expanded="true" signature="9497:9518" placeholder="UPDATE `${{$... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,19 +334,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_adv.php">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6764705">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
+    <entry file="file://$PROJECT_DIR$/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.21498771">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1455932576611" expanded="true" signature="612:765" placeholder="..." />
+            <marker date="1455932576611" expanded="true" signature="705:733" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
