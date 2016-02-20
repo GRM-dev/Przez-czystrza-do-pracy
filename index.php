@@ -13,7 +13,7 @@
     <link href="css/landing-page.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href=http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    <link href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
 
@@ -66,7 +66,7 @@ include 'main.php';
             <div class="col-lg-12">
                 <ul class="list-inline">
                     <li>
-                        <a href="">Strona główna</a>
+                        <a href="?page=home">Strona główna</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
@@ -84,7 +84,7 @@ include 'main.php';
 </footer>
 
 <script src="js/vendor/jquery-1.12.0.min.js"></script>
-<script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <!--[if lt IE 9]>

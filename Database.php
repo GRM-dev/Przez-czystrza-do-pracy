@@ -27,14 +27,25 @@ class Database
             echo "Error: " . $mysqli->error . "\n";
             exit;
         }
-        return mysqli_fetch_assoc($result);
+        return mysqli_fetch_array($result);
     }
 
     public function add_advert(){
+        $mysqli = $this->get_connection();
 
     }
 
     public function cred_valid($username, $paswd){
+        $mysqli = $this->get_connection();
+
+    }
+
+    public function reg_user($username, $paswd){
+        $mysqli = $this->get_connection();
+
+    }
+
+    public function get_url(){
         $mysqli = $this->get_connection();
 
     }
