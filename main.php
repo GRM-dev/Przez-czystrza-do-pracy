@@ -49,4 +49,9 @@ switch($page){
         include 'registerAdvertisment.php';
         echo '</div>';
         break;
+    case 'deleteAdvertisment';
+        echo '<div id="content">';
+        include 'deleteAdvertisment.php';
+        echo '</div>';
+        break;
 }

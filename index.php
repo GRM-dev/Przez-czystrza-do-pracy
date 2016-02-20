@@ -86,6 +86,11 @@
                     <li>
                         <a href="?page=registerAdvertisment">Rejestracja zgłoszenia</a>
                     </li>
+                    <li class="footer-menu-divider">&sdot;</li>
+                    <li>
+                        <a href="?page=deleteAdvertisment">Usuwanie zgłoszeń</a>
+                    </li>
+
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; Your Company TODO</p>
             </div>
