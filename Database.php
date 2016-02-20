@@ -166,6 +166,21 @@ class Database
 
     }
 
+    public function get_user(){
+        $mysqli = $this->get_connection();
+        $sql = "SELECT * FROM `users`";
+        if (!$result = $mysqli->query($sql)) {
+            echo "Sorry, the website is experiencing problems.";
+            echo "Error: Our query failed to execute and here is why: \n";
+            echo "Query: " . $sql . "\n";
+            echo "Errno: " . $mysqli->errno . "\n";
+            echo "Error: " . $mysqli->error . "\n";
+            exit;
+        }
+        return mysqli_fetch_all($result);
+
+    }
+
     public function delete_content($id_content){
         $mysqli = $this->get_connection();
         $sql = "DELETE FROM `content` WHERE `id_content` =".$id_content;
