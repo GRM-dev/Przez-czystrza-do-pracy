@@ -4,8 +4,6 @@ include_once('User.php');
 
 function login()
 {
-    var_dump($_POST);
-    sleep(3);
     if (empty($_POST['email']))
     {
         echo ("Nie podałeś maila!");
@@ -23,7 +21,7 @@ function login()
     if(User::login($username, $pswds)) {
         echo "____" . $username . $pswds;
         header("Status: 301 Moved Permanently");
-        header("Location:?page=home");
+        header("Location:index.php?page=home");
         return true;
     }
     echo 'zle haslo!';
