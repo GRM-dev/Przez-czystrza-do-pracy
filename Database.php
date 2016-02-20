@@ -15,10 +15,10 @@ class Database
         return $mysqli;
     }
 
-    public function get_jobs()
+    public function get_adverts()
     {
         $mysqli = $this->get_connection();
-        $sql = "SELECT * FROM provinces";
+        $sql = "SELECT * FROM site_content";
         if (!$result = $mysqli->query($sql)) {
             echo "Sorry, the website is experiencing problems.";
             echo "Error: Our query failed to execute and here is why: \n";
@@ -30,7 +30,7 @@ class Database
         return mysqli_fetch_assoc($result);
     }
 
-    public function add_adv(){
+    public function add_advert(){
 
     }
 

@@ -9,7 +9,7 @@
 include_once('database.php');
 
 $DB = new Database();
-$jobs = $DB->get_jobs();
+$jobs = $DB->get_adverts();
 
 ?>
 <div class="content-section-a">
