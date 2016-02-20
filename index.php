@@ -79,9 +79,12 @@
                         <a href="?page=userChangePwd">Zmiana hasła</a>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="?page=adminChangeUserPwd">Admin Zmiana hasła</a>
-                    </li>
+                    <?php
+                    include_once('user.php');
+                    if(User::is_admin()) {
+                        echo '<li><a href="?page=adminChangeUserPwd">Admin Zmiana hasła</a></li>';
+                    }
+                    ?>
                     <li class="footer-menu-divider">&sdot;</li>
                     <li>
                         <a href="?page=registerAdvertisment">Rejestracja zgłoszenia</a>

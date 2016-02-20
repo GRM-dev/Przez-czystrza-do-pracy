@@ -31,10 +31,10 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                             <li>
                                 <?php
                                     $linki = 'link';
-                                    $os = $stats[0];
+                                    $os = $stats[0][0];
                                     if ($os == 0 || $os > 4){
                                         $linki = $linki.'ów';
-                                    } elseif ($os > 0 && $os < 5) {
+                                    } elseif ($os >1 && $os < 5) {
                                         $linki = $linki.'i';
                                     }
                                     echo ' '.$os.' '.$linki.' ';
@@ -44,10 +44,10 @@ $regex = '~(http(s?)://)([^/]*)/?~';
                             <li>
                                 <?php
                                     $linki = 'link';
-                                    $os = $stats[1];
+                                    $soo = $stats[0][1];
                                     if ($soo == 0 || $soo > 4){
                                         $linki = $linki.'ów';
-                                    } elseif ($soo > 0 && $soo < 5) {
+                                    } elseif ($soo > 1 && $soo < 5) {
                                         $linki = $linki.'i';
                                     }
                                     echo ' '.$soo.' '.$linki.' ';
