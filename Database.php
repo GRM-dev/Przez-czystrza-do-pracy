@@ -58,7 +58,7 @@ class Database
         $mysqli = $this->get_connection();
         $end = NULL;
         if (isset($date_stop)) $end = $date_stop;
-        $sql = "INSERT_INTO `content` (`id_category`, `id_province`, `id_user`, `city`, `company`, `position`, `url`, `date_start`, `date_stop`) VALUES (`" . $id_category . "`, '" . $id_province . "`, '" . $id_user . "`, '" . $city . "`, '" . $company . "`, '" . $position . "`, '" . $url . "`, '" . $date_start . "`, '" . $end . "')";
+        $sql = "INSERT_INTO `content` (`id_category`, `id_province`, `id_user`, `city`, `company`, `position`, `url`, `date_start`, `date_stop`) VALUES ('" . $id_category . "', '" . $id_province . "', '" . $id_user . "', '" . $city . "', '" . $company . "', '" . $position . "', '" . $url . "', '" . $date_start . "', '" . $end . "')";
         if (!$result = $mysqli->query($sql)) {
             echo "Sorry, the website is experiencing problems.";
             echo "Error: Our query failed to execute and here is why: \n";
@@ -86,7 +86,7 @@ class Database
     public function add_category($category)
     {
         $mysqli = $this->get_connection();
-        $sql = "INSERT INTO `categories` (`category`) VALUES (`" . $category . "`)";
+        $sql = "INSERT INTO `categories` (`category`) VALUES (" . $category . "')";
         if (!$result = $mysqli->query($sql)) {
             echo "Sorry, the website is experiencing problems.";
             echo "Error: Our query failed to execute and here is why: \n";
@@ -100,7 +100,7 @@ class Database
     public function add_function($function)
     {
         $mysqli = $this->get_connection();
-        $sql = "INSERT INTO `functions` (`function`) VALUES (`" . $function . "`)";
+        $sql = "INSERT INTO `functions` (`function`) VALUES ('" . $function . "')";
         if (!$result = $mysqli->query($sql)) {
             echo "Sorry, the website is experiencing problems.";
             echo "Error: Our query failed to execute and here is why: \n";
